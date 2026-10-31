@@ -1,0 +1,6 @@
+# Core library: Python stdlib only — no runtime dependencies.
+# Optional service (import-guarded; tests pass without it):
+fastapi>=0.110
+uvicorn>=0.29
+# Dev / test:
+pytest>=8.0
